@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Megamunopa Logistics — Freight, Warehousing & Supply Chain in Africa</title>
+  <meta name="description" content="Megamunopa Logistics provides road freight, air & ocean, warehousing, customs clearance, and last‑mile delivery across Zimbabwe and the SADC region." />
+  <meta name="theme-color" content="#0a3d62" />
+  <meta property="og:title" content="Megamunopa Logistics" />
+  <meta property="og:description" content="Reliable logistics across Zimbabwe & SADC: road, air & ocean, warehousing, customs, last‑mile." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/0a3d62/ffffff&text=Megamunopa+Logistics" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Crect width='256' height='256' rx='48' fill='%230a3d62'/%3E%3Cpath d='M40 156l56-88h24l-56 88H40zm96-56h80l-16-24h-64v24zm0 24h64l16 24h-80v-24z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --brand:#0a3d62; --brand-2:#145a8d; --accent:#18c29c; --ink:#0f172a; --muted:#475569; --bg:#ffffff; --bg-2:#f8fafc; --ring:0 0 0 3px rgba(20,90,141,.25);
+      --shadow:0 10px 30px rgba(2,12,27,.08);
+      --radius:14px;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0b1220; --bg-2:#0e1628; --ink:#e5e7eb; --muted:#9aa4b2; --shadow:0 10px 30px rgba(0,0,0,.35); }
+    }
+    [data-theme="dark"]{ --bg:#0b1220; --bg-2:#0e1628; --ink:#e5e7eb; --muted:#9aa4b2; --shadow:0 10px 30px rgba(0,0,0,.35); }
+    *{box-sizing:border-box}
+    html,body{margin:0}
+    body{
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial;
+      background:var(--bg); color:var(--ink); line-height:1.6;
+    }
+    a{color:inherit; text-decoration:none}
+    img{max-width:100%; display:block}
+    .container{width:min(1120px,92%); margin-inline:auto}
+    /* Header */
+    header{
+      position:sticky; top:0; z-index:1000; backdrop-filter:saturate(1.2) blur(8px);
+      background:color-mix(in srgb,var(--bg) 88%, transparent); border-bottom:1px solid color-mix(in srgb,var(--ink) 10%, transparent);
+    }
+    .nav{display:flex; align-items:center; justify-content:space-between; padding:.75rem 0;}
+    .logo{display:flex; gap:.6rem; align-items:center; font-weight:800; letter-spacing:.2px}
+    .logo svg{width:34px; height:34px}
+    .nav-links{display:flex; gap:1.2rem; align-items:center}
+    .nav-links a{padding:.55rem .75rem; border-radius:10px; font-weight:600; color:var(--muted)}
+    .nav-links a:hover, .nav-links a:focus{outline:none; color:var(--ink); background:var(--bg-2)}
+    .cta{background:linear-gradient(135deg,var(--brand),var(--brand-2)); color:#fff !important; box-shadow:var(--shadow)}
+    .cta:hover{transform:translateY(-1px)}
+    .menu-btn{display:none; padding:.5rem .65rem; border-radius:10px; border:1px solid color-mix(in srgb,var(--ink) 12%, transparent); background:var(--bg)}
+    @media (max-width: 940px){
+      .nav-links{display:none}
+      .menu-btn{display:inline-flex; align-items:center; gap:.5rem}
+      .mobile{display:none; position:fixed; inset:70px 0 auto 0; background:var(--bg); border-bottom:1px solid color-mix(in srgb,var(--ink) 10%, transparent); padding:1rem}
+      .mobile a{display:block; padding:.9rem 1rem; border-radius:12px; color:var(--muted); font-weight:600}
+      .mobile a:hover{background:var(--bg-2); color:var(--ink)}
+    }
+    /* Hero */
+    .hero{display:grid; grid-template-columns:1.15fr .85fr; gap:2rem; padding:4.5rem 0 3rem}
+    .hero h1{font-size:clamp(2rem, 2.3rem + 1.2vw, 3.4rem); line-height:1.15; margin:.25rem 0 .75rem}
+    .hero p{font-size:1.1rem; color:var(--muted)}
+    .badge-row{display:flex; gap:.6rem; flex-wrap:wrap}
+    .badge{display:inline-flex; align-items:center; gap:.45rem; padding:.45rem .7rem; border-radius:999px; border:1px solid color-mix(in srgb,var(--ink) 12%, transparent); color:var(--muted); background:var(--bg-2)}
+    .hero-card{
+      background:linear-gradient(180deg,var(--bg-2),transparent), url('https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/472312202_1006471771517686_2834050433149666452_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=AsjqNgDBw7IQ7kNvwH_AEBl&_nc_oc=AdnD15t75pjlhjXlOFMFTkp9JM3twDUsrxRtLD35vghNQvBOkzPJeeVJ25xI86MROIY&_nc_zt=23&_nc_ht=scontent.fhre2-2.fna&_nc_gid=bOOHcFUjFrnZu9M8qzU8eg&oh=00_AfV_93T2L25AveGv5164dfKBSNOs-_e0CKZIbVzXt1FZmQ&oe=68AA6F0D') center/cover no-repeat;
+      border-radius:20px; min-height:340px; box-shadow:var(--shadow); position:relative; isolation:isolate; overflow:hidden;
+    }
+    .hero-card::after{content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent, rgba(10,61,98,.6))}
+    .hero-stats{position:absolute; bottom:0; left:0; right:0; padding:1rem; color:#fff; display:grid; grid-template-columns:repeat(3,1fr); gap:.6rem}
+    .stat{background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.25); border-radius:12px; padding:.8rem; text-align:center}
+    .stat b{font-size:1.2rem}
+    @media (max-width: 940px){ .hero{grid-template-columns:1fr; padding:2.5rem 0 1rem} .hero-card{min-height:260px} }
+    .btn{display:inline-flex; align-items:center; gap:.55rem; padding:.75rem 1rem; border-radius:12px; border:1px solid color-mix(in srgb,var(--ink) 12%, transparent); background:#fff0; color:var(--ink); font-weight:700}
+    .btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand-2)); color:#fff; border-color:transparent}
+    .btn:hover{box-shadow:var(--shadow); transform:translateY(-1px)}
+    .btn .dot{width:7px; height:7px; background:#fff; border-radius:999px}
+    /* Sections */
+    section{padding:3.5rem 0}
+    .section-h{display:flex; align-items:end; justify-content:space-between; gap:1rem; margin-bottom:1.4rem}
+    .section-h h2{font-size:clamp(1.4rem, 1.2rem + .9vw, 2.2rem); margin:0}
+    .grid{display:grid; gap:1rem}
+    .grid-3{grid-template-columns:repeat(3,1fr)}
+    .grid-2{grid-template-columns:repeat(2,1fr)}
+    @media (max-width: 940px){ .grid-3,.grid-2{grid-template-columns:1fr} }
+    .card{background:var(--bg-2); border:1px solid color-mix(in srgb,var(--ink) 12%, transparent); border-radius:16px; padding:1rem; box-shadow:var(--shadow)}
+    .card .icon{width:40px; height:40px; display:grid; place-items:center; border-radius:12px; background:conic-gradient(from 180deg at 50% 50%, var(--accent), var(--brand))}
+    .card h3{margin:.6rem 0 .35rem}
+    .muted{color:var(--muted)}
+    /* Services */
+    .pill{display:inline-block; padding:.3rem .6rem; border-radius:999px; background:var(--bg); border:1px solid color-mix(in srgb,var(--ink) 12%, transparent); font-size:.85rem; color:var(--muted)}
+    /* Tracking & Quote */
+    .panel{background:var(--bg-2); border:1px solid color-mix(in srgb,var(--ink) 12%, transparent); border-radius:16px; padding:1rem; box-shadow:var(--shadow)}
+    .row{display:grid; grid-template-columns:1fr 1fr; gap:1rem}
+    @media (max-width: 940px){ .row{grid-template-columns:1fr} }
+    input, select, textarea{
+      width:100%; padding:.85rem .9rem; border-radius:12px; border:1px solid color-mix(in srgb,var(--ink) 15%, transparent); background:var(--bg); color:var(--ink);
+    }
+    input:focus, select:focus, textarea:focus, .btn:focus{outline:none; box-shadow:var(--ring)}
+    label{font-weight:600; font-size:.93rem}
+    .helper{font-size:.85rem; color:var(--muted)}
+    .steps{display:flex; gap:.6rem; flex-wrap:wrap}
+    .step{flex:1; min-width:220px; background:var(--bg-2); border:1px dashed color-mix(in srgb,var(--ink) 14%, transparent); padding:1rem; border-radius:12px}
+    /* Testimonials carousel */
+    .carousel{position:relative; overflow:hidden}
+    .slides{display:flex; transition:transform .5s ease}
+    .testimonial{min-width:100%; padding:1rem}
+    .quote{font-size:1.02rem}
+    .dots{display:flex; gap:.4rem; justify-content:center; margin-top:.7rem}
+    .dots button{width:9px; height:9px; border-radius:999px; border:0; background:color-mix(in srgb,var(--ink) 20%, transparent)}
+    .dots button[aria-current="true"]{background:var(--brand)}
+    /* Footer */
+    footer{background:var(--bg-2); border-top:1px solid color-mix(in srgb,var(--ink) 10%, transparent)}
+    .foot{display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:1.2rem; padding:2rem 0}
+    .foot h4{margin:.2rem 0 .7rem}
+    .foot a{display:block; color:var(--muted); padding:.3rem 0}
+    @media (max-width:940px){ .foot{grid-template-columns:1fr 1fr} }
+    .subfoot{display:flex; gap:1rem; justify-content:space-between; flex-wrap:wrap; padding:1rem 0; border-top:1px solid color-mix(in srgb,var(--ink) 10%, transparent); color:var(--muted)}
+    /* Toast */
+    .toast{position:fixed; right:16px; bottom:16px; background:var(--ink); color:#fff; padding:.8rem 1rem; border-radius:12px; opacity:0; transform:translateY(8px); transition:all .3s ease; z-index:2000}
+    .toast.show{opacity:1; transform:translateY(0)}
+    /* Dark mode toggle */
+    .toggle{display:inline-flex; align-items:center; gap:.5rem; padding:.4rem .6rem; border-radius:999px; border:1px solid color-mix(in srgb,var(--ink) 12%, transparent)}
+    .toggle input{appearance:none; width:42px; height:24px; background:var(--bg-2); border:1px solid color-mix(in srgb,var(--ink) 12%, transparent); border-radius:999px; position:relative}
+    .toggle input::after{content:""; position:absolute; width:18px; height:18px; top:50%; left:3px; translate:0 -50%; border-radius:50%; background:var(--ink); transition:left .25s ease, background .25s}
+    .toggle input:checked{background:var(--brand)}
+    .toggle input:checked::after{left:21px; background:#fff}
+    /* Table */
+    table{width:100%; border-collapse:separate; border-spacing:0; overflow:hidden; border-radius:12px}
+    th, td{padding:.8rem; border-bottom:1px solid color-mix(in srgb,var(--ink) 10%, transparent)}
+    th{background:var(--bg-2); text-align:left}
+    /* Map */
+    .map-embed{aspect-ratio:16/9; border:0; width:100%; border-radius:16px}
+    /* Anim */
+    .reveal{opacity:0; transform:translateY(14px); transition:all .6s ease}
+    .reveal.show{opacity:1; transform:none}
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header aria-label="Site header">
+    <div class="container nav" >
+      <a href="#" class="logo" aria-label="Megamunopa Logistics home">
+        <svg aria-hidden="true" viewBox="0 0 256 256" fill="none">
+          <rect width="256" height="256" rx="48" fill="url(#g)"/>
+          <path d="M40 156l56-88h24l-56 88H40zm96-56h80l-16-24h-64v24zm0 24h64l16 24h-80v-24z" fill="#fff"/>
+          <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0a3d62"/><stop offset="1" stop-color="#145a8d"/></linearGradient></defs>
+        </svg>
+        <span>Megamunopa Logistics</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#industries">Industries</a>
+        <a href="#tracking">Track</a>
+        <a href="#quote">Get a Quote</a>
+        <a href="#about">About</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact" class="cta">Contact</a>
+        <label class="toggle" title="Dark mode">
+          <span aria-hidden="true">🌙</span>
+          <input id="themeToggle" type="checkbox" aria-label="Toggle dark mode">
+        </label>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">☰ Menu</button>
+    </div>
+    <div id="mobileMenu" class="mobile" role="dialog" aria-modal="true" aria-label="Mobile menu">
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#tracking">Track Shipment</a>
+      <a href="#quote">Get a Quote</a>
+      <a href="#about">About</a>
+      <a href="#careers">Careers</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#contact" class="cta">Contact</a>
+      <label class="toggle" style="margin-top:.6rem">
+        <span aria-hidden="true">🌙</span>
+        <input id="themeToggleM" type="checkbox" aria-label="Toggle dark mode (mobile)">
+      </label>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero container">
+      <div>
+        <div class="badge-row">
+          <span class="badge">SADC Coverage</span>
+          <span class="badge">24/7 Visibility</span>
+          <span class="badge">Customs Expertise</span>
+        </div>
+        <h1>Move anything, anywhere — reliably.</h1>
+        <p>Megamunopa Logistics delivers end‑to‑end solutions across Zimbabwe and the SADC region: road freight, air & ocean, warehousing, customs clearance, last‑mile, and e‑commerce fulfillment. We combine experienced people with smart tech to keep your supply chain flowing.</p>
+        <div style="display:flex; gap:.6rem; flex-wrap:wrap; margin-top:1rem">
+          <a href="#quote" class="btn primary"><span class="dot"></span> Get an instant quote</a>
+          <a href="#tracking" class="btn">Track a shipment</a>
+          <a href="#contact" class="btn">Talk to sales</a>
+        </div>
+      </div>
+      <div class="hero-card" role="img" aria-label="Trauck at dusk representing freight operations">
+        <div class="hero-stats" aria-hidden="true">
+          <div class="stat"><b>98.7%</b><div>On‑time</div></div>
+          <div class="stat"><b>70+</b><div>Fleet units</div></div>
+          <div class="stat"><b>9</b><div>SADC countries</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust badges -->
+    <section class="container reveal" aria-label="Certifications & partners">
+      <div class="grid grid-3">
+        <div class="card"><span class="pill">ISO‑ready</span><h3>Quality & Safety</h3><p class="muted">We operate to rigorous safety and quality standards with continuous driver training.</p></div>
+        <div class="card"><span class="pill">Insured</span><h3>Cargo Protection</h3><p class="muted">Comprehensive goods‑in‑transit insurance options available on request.</p></div>
+        <div class="card"><span class="pill">Secure</span><h3>Real‑time Visibility</h3><p class="muted">Live GPS telemetry and milestone alerts via email/SMS keep you in the loop.</p></div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="container reveal">
+      <div class="section-h">
+        <h2>Services</h2>
+        <a class="btn" href="#quote">Request pricing</a>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="icon" aria-hidden="true">🚚</div>
+          <h3>Road Freight</h3>
+          <p class="muted">FTL/LTL across Zimbabwe & cross‑border (SA, Botswana, Zambia, Mozambique, Namibia, Malawi). Dry van, flatbed, refrigerated.</p>
+          <ul class="muted"><li>Daily dispatches</li><li>Live tracking</li><li>Dangerous goods compliant</li></ul>
+        </div>
+        <div class="card">
+          <div class="icon" aria-hidden="true">✈️</div>
+          <h3>Air Freight</h3>
+          <p class="muted">Airport‑to‑airport and door‑to‑door with customs brokerage and priority handling.</p>
+        </div>
+        <div class="card">
+          <div class="icon" aria-hidden="true">🚢</div>
+          <h3>Ocean & Cross‑Dock</h3>
+          <p class="muted">FCL/LCL via Durban/Beira, deconsolidation and inland haulage to your site.</p>
+        </div>
+        <div class="card">
+          <div class="icon" aria-hidden="true">🏬</div>
+          <h3>Warehousing & 3PL</h3>
+          <p class="muted">Bonded & ambient storage, inventory control, e‑commerce fulfillment, returns.</p>
+        </div>
+        <div class="card">
+          <div class="icon" aria-hidden="true">🧾</div>
+          <h3>Customs & Compliance</h3>
+          <p class="muted">Tariff classification, permits, SAD500, rebate/BLNS rules, duty optimization.</p>
+        </div>
+        <div class="card">
+          <div class="icon" aria-hidden="true">📦</div>
+          <h3>Last‑Mile Delivery</h3>
+          <p class="muted">Nationwide B2B & B2C delivery with COD, POD capture, and delivery time slots.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries -->
+    <section id="industries" class="container reveal">
+      <div class="section-h"><h2>Industries we serve</h2></div>
+      <div class="grid grid-3">
+        <div class="card"><h3>Mining & Minerals</h3><p class="muted">Heavy haul, project cargo, export documentation.</p></div>
+        <div class="card"><h3>FMCG & Retail</h3><p class="muted">High‑velocity distribution, shelf‑ready packaging, reverse logistics.</p></div>
+        <div class="card"><h3>Agriculture</h3><p class="muted">Seasonal peaks, cold chain for perishables, input supplies.</p></div>
+        <div class="card"><h3>Manufacturing</h3><p class="muted">Just‑in‑time deliveries and vendor‑managed inventory.</p></div>
+        <div class="card"><h3>Healthcare</h3><p class="muted">GDP‑aligned handling, temperature‑controlled lanes.</p></div>
+        <div class="card"><h3>E‑commerce</h3><p class="muted">Same/next‑day fulfilment and returns optimization.</p></div>
+      </div>
+    </section>
+
+    <!-- Tracking + Quote -->
+    <section id="tracking" class="container row reveal" aria-label="Track & Quote">
+      <!-- Tracking -->
+      <div class="panel" aria-labelledby="trackH">
+        <h2 id="trackH">Track a shipment</h2>
+        <p class="helper">Enter your tracking number (e.g., <code>MLZ-2025-00123</code>).</p>
+        <form id="trackForm" novalidate>
+          <label for="trackId">Tracking Number</label>
+          <input id="trackId" name="trackId" placeholder="MLZ-YYYY-#####"
+                 inputmode="text" autocomplete="off" required aria-describedby="trackHelp" />
+          <div id="trackHelp" class="helper">We’ll show the latest status and milestones.</div>
+          <div style="display:flex; gap:.6rem; margin-top:.8rem">
+            <button class="btn primary" type="submit">Track</button>
+            <button class="btn" type="reset">Clear</button>
+          </div>
+        </form>
+        <div id="trackResult" class="card" style="display:none; margin-top:1rem" aria-live="polite"></div>
+      </div>
+      <!-- Quote -->
+      <div id="quote" class="panel" aria-labelledby="quoteH">
+        <h2 id="quoteH">Get an instant quote</h2>
+        <form id="quoteForm" novalidate>
+          <div class="row">
+            <div>
+              <label for="from">Pickup location</label>
+              <input id="from" name="from" placeholder="Harare, ZW" required />
+            </div>
+            <div>
+              <label for="to">Delivery location</label>
+              <input id="to" name="to" placeholder="Johannesburg, ZA" required />
+            </div>
+            <div>
+              <label for="mode">Mode</label>
+              <select id="mode" name="mode" required>
+                <option value="">Select…</option>
+                <option>Road</option><option>Air</option><option>Ocean</option>
+              </select>
+            </div>
+            <div>
+              <label for="weight">Weight (kg)</label>
+              <input id="weight" name="weight" type="number" step="0.1" min="0.1" placeholder="500" required />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="dims">Dimensions (L×W×H cm)</label>
+              <input id="dims" name="dims" placeholder="120 × 80 × 100" />
+            </div>
+            <div>
+              <label for="service">Service level</label>
+              <select id="service" name="service" required>
+                <option value="">Select…</option>
+                <option>Standard (3–5 days)</option>
+                <option>Express (1–2 days)</option>
+                <option>Economy (5–8 days)</option>
+              </select>
+            </div>
+          </div>
+          <label for="notes">Cargo description</label>
+          <textarea id="notes" name="notes" placeholder="Palletized FMCG goods" rows="3"></textarea>
+          <div style="display:flex; gap:.6rem; margin-top:.8rem; align-items:center">
+            <button class="btn primary" type="submit">Calculate</button>
+            <span class="helper">No signup required.</span>
+          </div>
+        </form>
+        <div id="quoteResult" class="card" style="display:none; margin-top:1rem" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="container reveal" aria-label="How it works">
+      <div class="section-h"><h2>How we work</h2></div>
+      <div class="steps">
+        <div class="step"><b>1) Plan</b><div class="muted">We scope lanes, risks, and compliance.</div></div>
+        <div class="step"><b>2) Move</b><div class="muted">Dispatch, monitor, and proactively manage ETAs.</div></div>
+        <div class="step"><b>3) Deliver</b><div class="muted">POD capture and exception reporting.</div></div>
+        <div class="step"><b>4) Improve</b><div class="muted">Monthly reviews and cost optimization.</div></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container reveal">
+      <div class="section-h"><h2>About Megamunopa Logistics</h2></div>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Our story</h3>
+          <p class="muted">Founded to simplify trade across Southern Africa, Megamunopa Logistics blends local know‑how with tech‑enabled operations. Our mission is simple: <em>reliable deliveries, zero drama.</em></p>
+          <table aria-label="Key stats">
+            <tr><th>Coverage</th><td>Zimbabwe + SADC</td></tr>
+            <tr><th>Fleet</th><td>Trucks, reefers, flatbeds, vans</td></tr>
+            <tr><th>Visibility</th><td>GPS + milestone alerts</td></tr>
+            <tr><th>Support</th><td>24/7 operations desk</td></tr>
+          </table>
+        </div>
+        <div class="card">
+          <h3>Where to find us</h3>
+          <p class="muted">Visit our operations hub. For appointments, call or email first.</p>
+          <iframe class="map-embed" title="Megamunopa Logistics map"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=31.010%2C-17.90%2C31.080%2C-17.75&layer=mapnik&marker=-17.829%2C31.054"></iframe>
+          <p><b>Address:</b> 123 Logistics Park, Harare, Zimbabwe<br/>
+             <b>Hours:</b> Mon–Fri 08:00–17:00, Sat 09:00–13:00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container reveal" aria-label="Testimonials">
+      <div class="section-h"><h2>What clients say</h2></div>
+      <div class="carousel card" id="carousel" aria-roledescription="carousel">
+        <div class="slides" id="slides">
+          <div class="testimonial">
+            <p class="quote">“Megamunopa turned our cross‑border headaches into a predictable rhythm. ETAs were accurate and communication was top‑notch.”</p>
+            <p><b>Tsitsi M.</b> — FMCG Distributor</p>
+          </div>
+          <div class="testimonial">
+            <p class="quote">“They handled our fragile medical shipments with great care. We had full temperature visibility end‑to‑end.”</p>
+            <p><b>Dr. N. Dube</b> — Healthcare</p>
+          </div>
+          <div class="testimonial">
+            <p class="quote">“Transparent pricing and no surprises. The team knows the border processes inside out.”</p>
+            <p><b>J. van der Merwe</b> — Manufacturing</p>
+          </div>
+        </div>
+        <div class="dots" role="tablist" aria-label="Testimonials">
+          <button aria-label="Slide 1" aria-controls="slides" aria-current="true"></button>
+          <button aria-label="Slide 2" aria-controls="slides"></button>
+          <button aria-label="Slide 3" aria-controls="slides"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fleet & Sustainability -->
+    <section class="container reveal">
+      <div class="section-h"><h2>Our fleet & sustainability</h2></div>
+      <div class="grid grid-3">
+        <div class="card"><h3>Telematics</h3><p class="muted">Driver scorecards, geo‑fencing, and anti‑theft systems on all units.</p></div>
+        <div class="card"><h3>Cold Chain</h3><p class="muted">ATP‑rated reefers with live temperature streaming.</p></div>
+        <div class="card"><h3>Greener Moves</h3><p class="muted">Route optimization and consolidated loads to lower emissions.</p></div>
+      </div>
+    </section>
+
+    <!-- Careers -->
+    <section id="careers" class="container reveal">
+      <div class="section-h"><h2>Careers</h2><a class="btn" href="#contact">Apply now</a></div>
+      <div class="grid grid-3">
+        <div class="card"><h3>Dispatch Coordinator</h3><p class="muted">Plan and monitor daily loads across SADC lanes.</p><span class="pill">Harare • Full‑time</span></div>
+        <div class="card"><h3>Customs Clerk</h3><p class="muted">Documentation, tariffing, and border liaison.</p><span class="pill">Beitbridge • Full‑time</span></div>
+        <div class="card"><h3>Heavy Vehicle Driver</h3><p class="muted">Experienced cross‑border drivers with clean record.</p><span class="pill">Various • Contract</span></div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faqs" class="container reveal">
+      <div class="section-h"><h2>FAQs</h2></div>
+      <div class="card" id="faqList">
+        <details>
+          <summary>Which countries do you cover?</summary>
+          <p class="muted">Zimbabwe, South Africa, Botswana, Zambia, Mozambique, Namibia, Malawi, Lesotho, and Eswatini.</p>
+        </details>
+        <details>
+          <summary>Can you handle hazardous cargo?</summary>
+          <p class="muted">Yes — subject to lane approvals and proper documentation. Contact us with MSDS and packing list.</p>
+        </details>
+        <details>
+          <summary>Do you offer insurance?</summary>
+          <p class="muted">Yes, optional goods‑in‑transit cover. We’ll quote based on cargo value and risk profile.</p>
+        </details>
+        <details>
+          <summary>How do I get POD?</summary>
+          <p class="muted">We email the signed proof of delivery immediately on completion and store it in your portal.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container reveal">
+      <div class="section-h"><h2>Contact us</h2></div>
+      <div class="row">
+        <div class="panel">
+          <h3>Send a message</h3>
+          <form id="contactForm" novalidate>
+            <div class="row">
+              <div>
+                <label for="name">Your name</label>
+                <input id="name" name="name" placeholder="Jane Doe" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="jane@company.com" required />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" placeholder="+263 77 000 0000" />
+              </div>
+              <div>
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic" required>
+                  <option value="">Choose…</option>
+                  <option>New business</option>
+                  <option>Support</option>
+                  <option>Careers</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your shipment…" rows="4" required></textarea>
+            <div style="display:flex; gap:.6rem; margin-top:.8rem; align-items:center">
+              <button class="btn primary" type="submit">Send</button>
+              <span class="helper">We respond within one business day.</span>
+            </div>
+          </form>
+        </div>
+        <div class="panel">
+          <h3>Call or visit</h3>
+          <p><b>Phone:</b> +263 (0) 77 000 0000<br/>
+             <b>Email:</b> hello@megamunopa.com</p>
+          <p><b>Office:</b> 123 Logistics Park, Harare, Zimbabwe</p>
+          <h4>Banking & Compliance</h4>
+          <ul class="muted">
+            <li>Registered VAT vendor</li>
+            <li>ZIMRA compliant</li>
+            <li>Goods‑in‑Transit insurance available</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container foot">
+      <div>
+        <div class="logo">
+          <svg aria-hidden="true" viewBox="0 0 256 256" width="28" height="28"><rect width="256" height="256" rx="48" fill="#0a3d62"/><path d="M40 156l56-88h24l-56 88H40zm96-56h80l-16-24h-64v24zm0 24h64l16 24h-80v-24z" fill="#fff"/></svg>
+          <b>Megamunopa Logistics</b>
+        </div>
+        <p class="muted">Reliable logistics across Zimbabwe & SADC.</p>
+      </div>
+      
+      <div>
+        <h4>Company</h4>
+        <a href="#about">About</a>
+        <a href="#careers">Careers</a>
+        <a href="#faqs">FAQs</a>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="#services">Road Freight</a>
+        <a href="#services">Air & Ocean</a>
+        <a href="#services">Warehousing</a>
+        <a href="#services">Customs</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#" id="openPrivacy">Privacy</a>
+        <a href="#" id="openTerms">Terms</a>
+      </div>
+      <div>
+        <h4>Website Created By</h4>
+        <a href="https://linkedin.com/in/tanaka-nhekairo-94159428a">TANAKA NHEKAIRO</a>
+        <a href="mailto:tanakanhekairo@gmail.com">tanakanhekairo@gmail.com</a>
+        <a href="tel:+263783204318">📱 +263 78 320 4318</a>
+      </div>
+    </div>
+    <div class="container subfoot">
+      <span>© <span id="year"></span> Megamunopa Logistics. All rights reserved.</span>
+      <span>Made with care for our clients. ✨</span>
+    </div>
+  </footer>
+
+  <!-- Simple modals (Privacy / Terms) -->
+  <dialog id="modal" style="max-width:720px; width:92%; border:none; border-radius:16px; padding:0; box-shadow:var(--shadow)">
+    <div style="padding:1rem; background:var(--bg-2); border-bottom:1px solid color-mix(in srgb,var(--ink) 10%, transparent)">
+      <b id="modalTitle">Title</b>
+    </div>
+    <div style="padding:1rem; max-height:60vh; overflow:auto">
+      <div id="modalBody" class="muted"></div>
+    </div>
+    <div style="padding:1rem; display:flex; justify-content:flex-end; gap:.6rem">
+      <button class="btn" id="closeModal">Close</button>
+    </div>
+  </dialog>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite">Done ✔️</div>
+
+  <script>
+    // Utilities
+    const $ = (sel, ctx=document) => ctx.querySelector(sel);
+    const $$ = (sel, ctx=document) => [...ctx.querySelectorAll(sel)];
+    const toast = (msg="Done ✔️") => { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); setTimeout(()=>t.classList.remove("show"), 2400) };
+
+    // Mobile menu
+    const menuBtn = $("#menuBtn"); const mobile = $("#mobileMenu");
+    const toggleMenu = () => {
+      const open = mobile.style.display !== "block";
+      mobile.style.display = open ? "block" : "none";
+      menuBtn.setAttribute("aria-expanded", String(open));
+    };
+    menuBtn.addEventListener("click", toggleMenu);
+    mobile.addEventListener("click", e => { if(e.target.tagName === "A") toggleMenu(); });
+
+    // Dark mode persistence
+    const themeToggles = [$("#themeToggle"), $("#themeToggleM")].filter(Boolean);
+    const applyTheme = (dark) => {
+      document.documentElement.dataset.theme = dark ? "dark" : "";
+      themeToggles.forEach(t => t.checked = dark);
+      localStorage.setItem("mlz_theme", dark ? "dark" : "light");
+    };
+    applyTheme(localStorage.getItem("mlz_theme")==="dark");
+    themeToggles.forEach(t => t.addEventListener("change", e => applyTheme(e.target.checked)));
+
+    // Year
+    $("#year").textContent = new Date().getFullYear();
+
+    // Reveal on scroll
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add("show"); io.unobserve(e.target); }});
+    }, {threshold:.15});
+    $$(".reveal").forEach(el => io.observe(el));
+
+    // Testimonials carousel
+    const slides = $("#slides"); const dots = $$(".dots button"); let idx = 0;
+    function go(i){ idx = (i + dots.length) % dots.length; slides.style.transform = `translateX(-${idx*100}%)`; dots.forEach((d,j)=>d.setAttribute("aria-current", j===idx ? "true" : "false")); }
+    dots.forEach((d,i)=>d.addEventListener("click", ()=>go(i)));
+    setInterval(()=>go(idx+1), 6000);
+
+    // Shipment tracking (mocked dataset)
+    const MOCK_SHIPMENTS = {
+      "MLZ-2025-00123": {
+        status:"In Transit",
+        eta:"2025-08-16",
+        origin:"Harare, ZW",
+        destination:"Gaborone, BW",
+        lastScan:"Plumtree Border • 2025-08-13 11:10",
+        history:[
+          {t:"2025-08-13 11:10", e:"Border exit scan — ZW"},
+          {t:"2025-08-12 16:02", e:"Departed Harare DC"},
+          {t:"2025-08-12 13:40", e:"Loaded at shipper"}
+        ]
+      },
+      "MLZ-2025-00456": {
+        status:"Delivered",
+        eta:"2025-08-10",
+        origin:"Mutare, ZW",
+        destination:"Beira, MZ",
+        lastScan:"POD signed • 2025-08-10 15:22",
+        history:[
+          {t:"2025-08-10 15:22", e:"Delivered — POD signed"},
+          {t:"2025-08-10 08:09", e:"Arrived at destination city"},
+          {t:"2025-08-09 17:31", e:"Departed origin"}
+        ]
+      }
+    };
+    const formatHistory = (h)=>
+      `<table aria-label="Tracking events">
+        <thead><tr><th style="width:180px">Timestamp</th><th>Event</th></tr></thead>
+        <tbody>${h.map(i=>`<tr><td>${i.t}</td><td>${i.e}</td></tr>`).join("")}</tbody>
+      </table>`;
+
+    $("#trackForm").addEventListener("submit", (e)=>{
+      e.preventDefault();
+      const id = $("#trackId").value.trim().toUpperCase();
+      const box = $("#trackResult");
+      if(!id){ box.style.display="none"; return; }
+      const data = MOCK_SHIPMENTS[id];
+      if(!data){
+        box.style.display="block";
+        box.innerHTML = `<p><b>Not found.</b> Please check the number or contact support.</p>
+          <p class="muted">Tip: try <code>MLZ-2025-00123</code> or <code>MLZ-2025-00456</code> for a demo.</p>`;
+        toast("Tracking not found ❓");
+        return;
+      }
+      box.style.display="block";
+      box.innerHTML = `
+        <div class="grid grid-3">
+          <div><b>Status:</b> ${data.status}</div>
+          <div><b>ETA:</b> ${data.eta}</div>
+          <div><b>Last scan:</b> ${data.lastScan}</div>
+        </div>
+        <p><b>Route:</b> ${data.origin} → ${data.destination}</p>
+        ${formatHistory(data.history)}
+      `;
+      toast("Tracking updated ✔️");
+    });
+
+    // Quote calculator (lightweight model)
+    function calcQuote({mode, weight, service, from, to}){
+      // Base per-kg USD rates (illustrative only)
+      const base = { Road: 0.65, Air: 3.20, Ocean: 0.35 }[mode] || 0.65;
+      const distanceBand = estimateBand(from, to); // 1 = local, 4 = cross-border far
+      const bandMult = [1, 1.35, 1.7, 2.2, 2.9][distanceBand];
+      const svcMult = { "Standard (3–5 days)": 1, "Express (1–2 days)": 1.35, "Economy (5–8 days)": 0.85 }[service] || 1;
+      const fuelSurcharge = .18; // 18%
+      const minCharge = { Road: 120, Air: 180, Ocean: 90 }[mode] || 120;
+
+      const linehaul = Math.max(weight * base * bandMult * svcMult, minCharge);
+      const fuel = linehaul * fuelSurcharge;
+      const insurance = Math.max(0.012 * (linehaul*10), 8); // rough proxy
+      const subtotal = linehaul + fuel + insurance;
+      const vat = 0.15 * subtotal; // example
+      const total = subtotal + vat;
+      return { currency:"USD", linehaul, fuel, insurance, vat, total };
+    }
+    function estimateBand(a,b){
+      const A = String(a).toLowerCase(), B = String(b).toLowerCase();
+      const sameCity = A.split(",")[0].trim() === B.split(",")[0].trim();
+      if(sameCity) return 1;
+      const crossBorder = /,?\s?(za|south africa|bw|botswana|mz|mozambique|zm|zambia|na|namibia|mw|malawi|ls|lesotho|sz|eswatini)/.test(B);
+      if(crossBorder) return 4;
+      return 2 + ((A.includes("harare") && B.includes("bulawayo")) || (A.includes("bulawayo") && B.includes("harare")) ? 0 : 1);
+    }
+    const money = (n,c="USD") => new Intl.NumberFormat(undefined,{style:"currency",currency:c,maximumFractionDigits:2}).format(n);
+
+    $("#quoteForm").addEventListener("submit",(e)=>{
+      e.preventDefault();
+      const v = Object.fromEntries(new FormData(e.target).entries());
+      if(!v.from || !v.to || !v.mode || !v.weight || !v.service){ toast("Please complete all required fields ❗"); return; }
+      const weight = Math.max(0, parseFloat(v.weight));
+      const out = calcQuote({mode:v.mode, weight, service:v.service, from:v.from, to:v.to});
+      $("#quoteResult").style.display="block";
+      $("#quoteResult").innerHTML = `
+        <h3>Estimated cost</h3>
+        <table>
+          <tr><th>Linehaul</th><td>${money(out.linehaul,out.currency)}</td></tr>
+          <tr><th>Fuel surcharge (18%)</th><td>${money(out.fuel,out.currency)}</td></tr>
+          <tr><th>Insurance</th><td>${money(out.insurance,out.currency)}</td></tr>
+          <tr><th>VAT (15%)</th><td>${money(out.vat,out.currency)}</td></tr>
+          <tr><th>Total</th><td><b>${money(out.total,out.currency)}</b></td></tr>
+        </table>
+        <p class="helper">This is a non‑binding estimate. Final pricing depends on exact weight/volume, incoterms, and lane specifics.</p>
+        <div style="display:flex; gap:.6rem">
+          <a class="btn primary" href="#contact">Request a formal quote</a>
+          <button class="btn" id="saveQuote">Save as PDF</button>
+        </div>
+      `;
+      $("#saveQuote").addEventListener("click", ()=>{
+        window.print(); // quick-and-clean PDF via browser print
+      }, {once:true});
+      toast("Quote ready ✔️");
+    });
+
+    // Contact form (client-side only)
+    $("#contactForm").addEventListener("submit", (e)=>{
+      e.preventDefault();
+      const v = Object.fromEntries(new FormData(e.target).entries());
+      // Simple validation
+      if(!v.name || !v.email || !v.message){ toast("Please fill the required fields ❗"); return; }
+      // Simulate success
+      e.target.reset();
+      toast("Message sent ✔️");
+    });
+
+    // Privacy & Terms modals
+    const modal = $("#modal"), modalTitle=$("#modalTitle"), modalBody=$("#modalBody");
+    $("#openPrivacy").addEventListener("click", (e)=>{ e.preventDefault(); modalTitle.textContent="Privacy Policy"; modalBody.innerHTML = `
+      <p>We collect only the data needed to deliver our services: contact details, shipment information, and billing records. We do not sell your data.</p>
+      <p>Cookies are used for basic analytics and to remember preferences (e.g., dark mode). You can opt out at any time.</p>
+      <p>For questions: <a href="mailto:privacy@megamunopa.com">privacy@megamunopa.com</a></p>`; modal.showModal(); });
+    $("#openTerms").addEventListener("click", (e)=>{ e.preventDefault(); modalTitle.textContent="Terms of Service"; modalBody.innerHTML = `
+      <p>All services are subject to carrier availability, customs regulations, and applicable laws. Insurance optional unless specified. Surcharges may apply for special handling.</p>
+      <p>Limitation of liability applies per standard freight terms.</p>`; modal.showModal(); });
+    $("#closeModal").addEventListener("click", ()=>modal.close());
+    modal.addEventListener("click", (e)=>{ const rect = modal.getBoundingClientRect(); if(e.clientY < rect.top || e.clientY > rect.bottom || e.clientX < rect.left || e.clientX > rect.right){ modal.close(); } });
+
+    // Accessibility tweaks
+    document.addEventListener("keydown",(e)=>{ if(e.key==="Escape" && mobile.style.display==="block") toggleMenu(); });
+
+    // Smooth scroll
+    $$('a[href^="#"]').forEach(a=>{
+      a.addEventListener("click", (e)=>{
+        const id = a.getAttribute("href").slice(1);
+        const el = document.getElementById(id);
+        if(el){ e.preventDefault(); el.scrollIntoView({behavior:"smooth", block:"start"}); history.replaceState(null,"",`#${id}`); }
+      });
+    });
+  </script>
+</body>
+</html>
